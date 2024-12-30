@@ -161,6 +161,19 @@ label, h4{
 li{
   margin-left: 20px;
 }
+
+
+.hover-class:hover{
+  font-size: 25px;
+font-weight: 900;
+color: white;
+}
+.hover-image:hover{
+ width: 65px;
+ height:65px;
+ border-radius:10%;
+ border: 3px solid #17b3bb;
+}
 @media (max-width: 860px) {
   .container {
     flex-direction: column; 

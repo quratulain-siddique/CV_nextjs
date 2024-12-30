@@ -127,20 +127,21 @@ export default function Home() {
 </div>
 
 <div className="labelDiv">
-  <label htmlFor="aboutSection" onClick={() => editIdNumber(1)} className={isHighlightedAbout ? 'highlightedDiv' : 'notHighlightedDiv' } >------ About</label><br/>
-  <label htmlFor="experienceSection" onClick={() => editIdNumber(2)} className={isHighlightedExperience ? 'highlightedDiv' : 'notHighlightedDiv' }>------ Experience</label><br/>
-  <label htmlFor="projectsSection" onClick={() => editIdNumber(3)} className={isHighlightedProjects ? 'highlightedDiv' : 'notHighlightedDiv' }>------ Projects</label><br/>
-  <label htmlFor="skillsSection" onClick={() => editIdNumber(4)} className={isHighlightedSkills ? 'highlightedDiv' : 'notHighlightedDiv' }>------ Skills</label><br/>
-  <label htmlFor="certificationSection" onClick={() => editIdNumber(5)} className={isHighlightedCertification ? 'highlightedDiv' : 'notHighlightedDiv' }>------ Certification</label><br/>
-  <label htmlFor="educationSection" onClick={() => editIdNumber(6)} className={isHighlightedEducation ? 'highlightedDiv' : 'notHighlightedDiv' }>------ Education</label><br/>
+  <label htmlFor="aboutSection" onClick={() => editIdNumber(1)} className={`${isHighlightedAbout ? 'highlightedDiv' : 'notHighlightedDiv'} hover-class`}
+ >------ About</label><br/>
+  <label htmlFor="experienceSection" onClick={() => editIdNumber(2)} className={`${isHighlightedExperience ? 'highlightedDiv' : 'notHighlightedDiv'} hover-class`}>------ Experience</label><br/>
+  <label htmlFor="projectsSection" onClick={() => editIdNumber(3)} className={`${isHighlightedProjects ? 'highlightedDiv' : 'notHighlightedDiv' } hover-class`}>------ Projects</label><br/>
+  <label htmlFor="skillsSection" onClick={() => editIdNumber(4)} className={`${isHighlightedSkills ? 'highlightedDiv' : 'notHighlightedDiv' } hover-class`}>------ Skills</label><br/>
+  <label htmlFor="certificationSection" onClick={() => editIdNumber(5)} className={`${isHighlightedCertification ? 'highlightedDiv' : 'notHighlightedDiv' } hover-class`}>------ Certification</label><br/>
+  <label htmlFor="educationSection" onClick={() => editIdNumber(6)} className={`${isHighlightedEducation ? 'highlightedDiv' : 'notHighlightedDiv' } hover-class`}>------ Education</label><br/>
 </div>
 <center>
 <div className="navDiv">
- <a href="https://github.com/quratulain-siddique" target="_blank"><Image src="/githubIcon.png" alt="github icon" height={50} width={50} priority className="navIcons"></Image></a>
- <a href="https://www.linkedin.com/in/quratulain-siddique/" target="_blank"><Image src="/linkedlnIcon.png" alt="linkedln icon" height={50} width={50} priority className="navIcons"></Image></a>
- <a href="https://leetcode.com/u/quratulain-siddique/" target="_blank"> <Image src="/leetcodeIcon.png" alt="leetcode icon" height={50} width={50} priority className="navIcons"></Image></a>
- <a href="mailto:quratulainsiddique12@example.com" ><Image src="/emailIcon.png" alt="email me at icon" height={50} width={50} priority className="navIcons"></Image></a>
- <a href="Qurat Ul Ain Siddique.pdf" download="CV" ><Image src="/downloadIcon.png" alt="download CV icon" height={50} width={50} priority className="navIcons"></Image></a>
+ <a href="https://github.com/quratulain-siddique" target="_blank"><Image src="/githubIcon.png" alt="github icon" height={50} width={50} priority className="navIcons hover-image"></Image></a>
+ <a href="https://www.linkedin.com/in/quratulain-siddique/" target="_blank"><Image src="/linkedlnIcon.png" alt="linkedln icon" height={50} width={50} priority className="navIcons hover-image"></Image></a>
+ <a href="https://leetcode.com/u/quratulain-siddique/" target="_blank"> <Image src="/leetcodeIcon.png" alt="leetcode icon" height={50} width={50} priority className="navIcons hover-image"></Image></a>
+ <a href="mailto:quratulainsiddique12@example.com" ><Image src="/emailIcon.png" alt="email me at icon" height={50} width={50} priority className="navIcons hover-image"></Image></a>
+ <a href="Qurat Ul Ain Siddique.pdf" download="CV" ><Image src="/downloadIcon.png" alt="download CV icon" height={50} width={50} priority className="navIcons hover-image"></Image></a>
 </div>
 </center>
   </div>

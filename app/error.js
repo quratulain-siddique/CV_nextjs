@@ -9,7 +9,8 @@ export default function Error() {
           <p  >The content you are looking for encountered an error.</p>
           <br/>
           <Link  className="highlightedDiv blueColor" href="/"> Go to Home
-        </Link>
+        </Link> 
+        
         </div>
       );
   }
