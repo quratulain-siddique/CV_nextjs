@@ -1,0 +1,46 @@
+
+.container {
+    display: flex; 
+    gap: 15px; 
+    align-items: stretch; 
+  }
+  .dateAlignRight{
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    color: #17b3bb;
+    width: 8rem;
+    padding-left:10px;
+    padding-top: 10px;
+    }
+    .divBorder{
+border: 1px dotted #17b3bb;
+border-radius: 0%;
+padding: 5px;
+margin: 3px;
+    }
+.skillBorder{
+        border: 2px solid #17b3bb;
+        border-radius: 25%;
+        padding: 5px;
+        margin: 2px;
+}
+.skillContainer{
+  display:flex;
+  flex-wrap: wrap;
+}
+.logoImg{
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+  @media (max-width: 860px) {
+.dateAlignRight{
+    text-align: right;
+    font-weight: bold;
+    color: #17b3bb;
+    width: 92vw;
+    margin-right:5px;
+
+    }
+  }

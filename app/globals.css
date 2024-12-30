@@ -1,0 +1,195 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color:  #001a66; 
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.container {
+  display: flex;
+  gap: 0px; 
+  border-radius: 10%;
+  color: white;
+}
+
+.centerText{
+  color:whitesmoke;
+  text-align: left;
+  padding: 5rem;
+
+}
+
+.rightColumn {
+  
+  background-color: #02195e; 
+  padding: 20px;
+  width: 60vw;
+  overflow-x: hidden;
+  margin-left: 40vw;
+}
+
+.blueColor{
+  color: #17b3bb;
+  border: 10px dotted #17b3bb;
+ margin-top: 100px;
+ margin-left: 20px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+.containerHeading {
+  display: grid;
+  grid-template-columns: 78px 1fr; /* Create two equal-width columns */
+  grid-template-rows: auto auto; /* Allow rows to grow based on content */
+  gap: 0px; /* Space between boxes */
+  
+}
+
+.box {
+  padding: 20px;
+}
+
+.box1 {
+  grid-row: span 2; /* Make Box 1 span two rows */
+  font-size: 45px;
+  font-weight: bold;
+}
+.box2{
+font-size: 32px;
+font-weight: bold;
+padding-bottom: 0px;
+
+}
+.box3 {
+  font-size: 18px;
+  padding-top: 0px;
+}
+
+p{
+  padding-left: 25px;
+  padding-right:20px;
+  text-align: justify;
+  color: #e7e0e0;
+}
+.labelDiv{
+  padding: 20px;
+  font-size: 18px;
+  color: #e7e0e0;
+  font-weight: bold;
+}
+.navDiv{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.navIcons{
+  margin: 3px;
+  padding: 3px;
+  border-radius: 20%;
+  border: 2px solid white;
+}
+.leftColumn {
+ 
+  background-color:  #001a66; 
+  padding: 20px;
+  height: 100vh;
+  width: 40vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: fixed; 
+}
+.headingDiv{
+  padding: 2px;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.highlightedDiv{
+font-size: 25px;
+font-weight: 900;
+color: white;
+}
+.notHighlightedDiv{
+  font-size: 18px;
+  font-weight: bold;
+  color: #dcd5d5;
+}
+label, h4{
+  color: #dcd5d5;
+}
+.tabbedText {
+  text-indent: 30px; /* Adjust the value to your preferred tab space */
+}
+li{
+  margin-left: 20px;
+}
+@media (max-width: 860px) {
+  .container {
+    flex-direction: column; 
+  }
+  .leftColumn {
+    background-color:  #001a66; 
+    padding: 20px;
+    width: 100vw;
+    height:auto;
+    position:relative;
+  }
+  .rightColumn {
+    background-color: #02195e; 
+    padding: 20px;
+    width: 100vw;
+    margin-left: 0vw;
+  }
+  .navDiv{
+    padding-bottom: 0px;
+  }
+  .navIcons{
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 20%;
+    border: 2px solid white;
+  }
+  li{
+    margin-left: 25px;
+  }
+} 
