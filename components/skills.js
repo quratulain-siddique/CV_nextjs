@@ -2,7 +2,7 @@ export default function Skills(){
     return <>
     <h2>Skills:</h2>
     <ul>
-        <li >
+        <li className="hover-color-change">
             <b ><u>Development</u></b>
             <ol>
                 <li>Web Development</li>
@@ -11,7 +11,7 @@ export default function Skills(){
             </ol>
         </li>
         <br/>
-        <li>
+        <li className="hover-color-change">
         <b ><u>Programming</u> </b>
             <ol>
                 <li><u>Web Development:</u> <p>Next js, JavaScript, React js, HTML, CSS, Bootstrap, and PHP</p></li>
@@ -23,7 +23,7 @@ export default function Skills(){
             </ol>
         </li>
         <br/>
-        <li>
+        <li className="hover-color-change">
         <b ><u>Soft Skills</u></b>
             <ol>
                 <li >
@@ -44,7 +44,7 @@ export default function Skills(){
             </ol>
         </li>
         <br/>
-        <li >
+        <li className="hover-color-change" >
            
         <b ><u> Platform Familiarity</u></b>
             <ol>

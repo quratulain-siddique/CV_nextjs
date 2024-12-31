@@ -129,7 +129,7 @@ export default function Home() {
 <div className="labelDiv">
   <label htmlFor="aboutSection" onClick={() => editIdNumber(1)} className={`${isHighlightedAbout ? 'highlightedDiv' : 'notHighlightedDiv'} hover-class`}
  >------ About</label><br/>
-  <label htmlFor="experienceSection" onClick={() => editIdNumber(2)} className={`${isHighlightedExperience ? 'highlightedDiv' : 'notHighlightedDiv'} hover-class`}>------ Experience</label><br/>
+  <label htmlFor="experienceSection" onClick={() => editIdNumber(2)} className={`${isHighlightedExperience ? 'highlightedDiv' : 'notHighlightedDiv'} hover-class `}>------ Experience</label><br/>
   <label htmlFor="projectsSection" onClick={() => editIdNumber(3)} className={`${isHighlightedProjects ? 'highlightedDiv' : 'notHighlightedDiv' } hover-class`}>------ Projects</label><br/>
   <label htmlFor="skillsSection" onClick={() => editIdNumber(4)} className={`${isHighlightedSkills ? 'highlightedDiv' : 'notHighlightedDiv' } hover-class`}>------ Skills</label><br/>
   <label htmlFor="certificationSection" onClick={() => editIdNumber(5)} className={`${isHighlightedCertification ? 'highlightedDiv' : 'notHighlightedDiv' } hover-class`}>------ Certification</label><br/>

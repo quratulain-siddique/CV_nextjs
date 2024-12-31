@@ -7,11 +7,12 @@
   .dateAlignRight{
     text-align: left;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     color: #17b3bb;
     width: 8rem;
     padding-left:10px;
     padding-top: 10px;
+    padding: 2px;
     }
     .divBorder{
 border: 1px dotted #17b3bb;

@@ -9,7 +9,7 @@ export default function Projects(){
         <div>
           <p className={styles.dateAlignRight}  >2022</p>
         </div>
-        <div>
+        <div > 
         <h3>E-Commerce Websites</h3>
         <ul >
           <li >
@@ -49,7 +49,6 @@ export default function Projects(){
       </div>
       
       </div>
-      <br/>
     </div>
     {/* 
     --------------------------------------------------------------------------------------

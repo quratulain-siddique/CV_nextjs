@@ -20,7 +20,7 @@ export default function Experience(){
         <Image
         src="/tripshepherd_logo.jpg"
         alt="tripshepherd logo" 
-        className={`${styles.logoImg} hover-image`} 
+        className={`${styles.logoImg} hover-image-exp`} 
         width={20}
         height={20}
         
@@ -55,7 +55,7 @@ export default function Experience(){
         <Image
         src="/oot_logo.png"
         alt="orion oynx technologies logo" 
-        className={`${styles.logoImg} hover-image`}
+        className={`${styles.logoImg} hover-image-exp`}
         width={20}
         height={20}
         
